@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Fitness</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="store image/images/favicon-16x16.png"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="navbar">
+				<div class="logo">
+					<img src="store image/images/fitness.png" width="125px" />
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#products">Products</a></li>
+						<li><a href="#promo">Promo</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#reviews">Reviews</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<img
+					src="store image/images/menu.png"
+					class="menu-icon"
+					onclick="menutoggle()"
+				/>
+			</div>
+			<!-- Hero Section -->
+			<section>
+				<div class="hero">
+					<div class="col">
+						<h1>Give Your Exercise <br />A New Mode!</h1>
+						<p>
+							Your goal is to be better than yesterday.You are your greatest
+							competition. <br />All you need is to know what your goal is and
+							be consistent everyday in achieving it!
+						</p>
+						<a href="#products" class="btn">Explore Now &#10132;</a>
+					</div>
+					<div class="col">
+						<img src="store image/images/all-sports-banner.png" />
+					</div>
+				</div>
+			</section>
+		</header>
+		<!------- About us ------->
+		<section>
+			<div id="about" class="about">
+				<h2 class="head title">About Us</h2>
+				<div class="about-content">
+					<div>
+						<h4>Fitness and fun Lorem, ipsum dolor. Lorem, ipsum dolor</h4>
+						<p>
+							Begin with achivers mentality, amet consectetur adipisicing elit.
+							Quos, asperiores. Ex temporibus magni quod eos mollitia cumque
+							obcaecati. Modi animi exercitationem harum fugiat quis officia ex
+							quod commodi corrupti minus.
+						</p>
+						<div class="">
+							<h4>Fitness Kits</h4>
+							<p>
+								Dress for success nsecteasperiores. Ex temporibus magni quod eos
+								mollitia cumque obcaecati. Modi animi exercitationem harum
+								fugiat quis officia ex quod commodi corrupti minus.
+							</p>
+						</div>
+					</div>
+					<div class="about-img">
+						<img src="store image/images/ready1.jpg" />
+					</div>
+				</div>
+			</div>
+			<!-----categories display------>
+			<div class="small-container">
+				<div class="categories">
+					<div class="row">
+						<div
+							class="col-3"
+							data-aos="fade-zoom-in"
+							data-aos-easing="ease-in-back"
+							data-aos-delay="300"
+							data-aos-offset="0"
+						>
+							<img src="store image/images/category-one.png" />
+						</div>
+						<div
+							class="col-3"
+							data-aos="fade-zoom-in"
+							data-aos-easing="ease-in-back"
+							data-aos-delay="300"
+							data-aos-offset="0"
+						>
+							<img src="store image/images/category-2.jpg" />
+						</div>
+						<div
+							class="col-3"
+							data-aos="fade-zoom-in"
+							data-aos-easing="ease-in-back"
+							data-aos-delay="300"
+							data-aos-offset="0"
+						>
+							<img src="store image/images/category4.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----- Products display   ------>
+		<section id="products" class="products">
+			<div class="small-container">
+				<h2 class="title">Products Display</h2>
+				<div class="row">
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-one.png" />
+						<h4>Red Polo Collar T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+
+					<div
+						class="col-4"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-2.jpg" />
+						<h4>Black HRX Track Sneakers</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-3.jpg" />
+						<h4>Grey Sweatpants</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+
+					<div
+						class="col-4"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-four.png" />
+						<h4>Blue NBA Trainers</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+				</div>
+			</div>
+			<div class="small-container">
+				<h2 class="title">Brand New</h2>
+				<div class="newBrand">
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-5.jpg" />
+						<h4>Silver Hightops Sneakers</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="top-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-6.jpg" />
+						<h4>Black Stylish T-Shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-7.jpg" />
+						<h4>HRX Cotton Socks</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-8.jpg" />
+						<h4>Fossil Time Piece</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-9.jpg" />
+						<h4>Simple Watch</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-10.jpg" />
+						<h4>Black & Red Sneakers</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+					>
+						<img src="store image/images/product-11.jpg" />
+						<h4>Grey Fidelity Shoe</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+					<div
+						class="col-4"
+						data-aos="fade-up"
+						data-aos-anchor-placement="center-center"
+						data-aos-duration="1500"
+					>
+						<img src="store image/images/product-12.jpg" />
+						<h4>Black Sweatpants</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<p>$67.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-----   Offer Display   ------>
+		<section id="promo" class="offer swiper mySwiper">
+			<h2 class="title">Promo</h2>
+			<div class="small-container swiper-wrapper">
+				<div class="row swiper-slide">
+					<div class="col-2">
+						<img
+							src="store image/images/exclusive Product.png"
+							class="offer-img"
+						/>
+					</div>
+					<div class="col-2">
+						<p>Only Available in This Store</p>
+						<h1>Xiaomi Mi Smart Band 4</h1>
+						<small>
+							AMOLED color touch screen with better brightness and 40% more
+							viewable screen. View your calls, messages and notifications Track
+							physical activity (including swimming). Water resistant up to 50
+							m. Improvement in the measurement of metrics.
+						</small>
+						<div class="button">
+							<a href="" class="btn">Buy Now &#10132;</a>
+						</div>
+					</div>
+				</div>
+				<div class="row swiper-slide">
+					<div class="col-2">
+						<img src="store image/images/exclusive.png" class="offer-img" />
+					</div>
+					<div class="col-2">
+						<p>Only Available in This Store</p>
+						<h1>Xiaomi Mi Smart Band 4</h1>
+						<small>
+							AMOLED color touch screen with better brightness and 40% more
+							viewable screen. View your calls, messages and notifications Track
+							physical activity (including swimming). Water resistant up to 50
+							m. Improvement in the measurement of metrics.
+						</small>
+						<div class="button">
+							<a href="" class="btn">Buy Now &#10132;</a>
+						</div>
+					</div>
+				</div>
+				<div class="row swiper-slide">
+					<div class="col-2">
+						<img src="store image/images/black.png" class="offer-img" />
+					</div>
+					<div class="col-2">
+						<p>Only Available in This Store</p>
+						<h1>Xiaomi Mi Smart Band 4</h1>
+						<small>
+							AMOLED color touch screen with better brightness and 40% more
+							viewable screen. View your calls, messages and notifications Track
+							physical activity (including swimming). Water resistant up to 50
+							m. Improvement in the measurement of metrics.
+						</small>
+						<div class="button">
+							<a href="" class="btn">Buy Now &#10132;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</section>
+
+		<!------- Testimonials ------->
+		<section id="reviews" class="testimonial">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-3" data-aos="zoom-out-right" data-aos-duration="1500">
+						<i class="fa fa-quote-left"></i>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+							consequuntur eveniet beatae aperiam atque? Voluptate quae nihil
+							numquam expedita nisi.
+						</p>
+
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<img src="store image/images/user-1.png" />
+						<h3>Lucy Bemana</h3>
+					</div>
+
+					<div class="col-3" data-aos="zoom-out-up" data-aos-duration="1500">
+						<i class="fa fa-quote-left"></i>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+							consequuntur eveniet beatae aperiam atque? Voluptate quae nihil
+							numquam expedita nisi.
+						</p>
+
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<img src="store image/images/user-2.png" />
+						<h3>Brian Stacy</h3>
+					</div>
+
+					<div class="col-3" data-aos="zoom-out-left" data-aos-duration="1500">
+						<i class="fa fa-quote-left"></i>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+							consequuntur eveniet beatae aperiam atque? Voluptate quae nihil
+							numquam expedita nisi.
+						</p>
+
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+						</div>
+						<img src="store image/images/user-3.png" />
+						<h3>Betty Jane</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------- Brands ------->
+		<section class="brands">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-5">
+						<img src="store image/images/logo-godrej.png" />
+					</div>
+
+					<div class="col-5">
+						<img src="store image/images/logo-oppo.png" />
+					</div>
+
+					<div class="col-5">
+						<img src="store image/images/logo-coca-cola.png" />
+					</div>
+
+					<div class="col-5">
+						<img src="store image/images/logo-paypal.png" />
+					</div>
+
+					<div class="col-5">
+						<img src="store image/images/logo-philips.png" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------- footer ------->
+		<footer id="contact" class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download Our App</h3>
+						<p>Download App for Andriod and ios mobile phone.</p>
+						<div class="app-logo">
+							<img src="store image/images/play-store.png" />
+							<img src="store image/images/app-store.png" />
+						</div>
+						<div class="">
+							<h3>Follow us</h3>
+							<ul class="row">
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Instagram</a></li>
+								<li><a href="#">Youtube</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer-col-2">
+						<img src="store image/images/fitness.png" />
+						<p>
+							Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+							Sports Accessible to the Many.
+						</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<div class="row">
+							<ul>
+								<li><a href="#">Coupons</a></li>
+								<li><a href="#">Blog Post</a></li>
+								<li><a href="#">Return Policy</a></li>
+								<li><a href="#">Become Affiliate</a></li>
+							</ul>
+							<ul id="MenuItems">
+								<li><a href="#">Home</a></li>
+								<li><a href="#products">Products</a></li>
+								<li><a href="#promo">Promo</a></li>
+								<li><a href="#reviews">Reviews</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<p class="copyright">
+					&copy; copyright <span id="year">2021</span>
+					<a href="https://devabdulsalam.netlify.app">devAbdulsalam</a>
+				</p>
+			</div>
+		</footer>
+
+		<!-- Js for toggle menu -->
+		<script src="app.js"></script>
+		<!-- Initialize Swiper -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+					renderBullet: function (index, className) {
+						return '<span class="' + className + '">' + (index + 1) + "</span>";
+					},
+				},
+			});
+		</script>
+		<!-- Initialize Aos -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
