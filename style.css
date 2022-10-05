@@ -13,6 +13,7 @@ body {
       rgb(193, 203, 252) 0%,
       rgb(223, 160, 172) 100%);
       position: relative;
+      width: 100%;
 }
 .navbar {
   position: fixed;
@@ -478,7 +479,7 @@ section {
 @media screen and (max-width: 600px) {
   .navbar {
       padding: 10px;
-      width: 100vw;
+      width: 100%;
       border: 1px green solid;
   }
   .about-content {
