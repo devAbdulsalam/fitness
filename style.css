@@ -465,8 +465,12 @@ section {
 /*----media query for less than 600 screen size-----*/
 
 @media screen and (max-width: 600px) {
-  .row {
-    text-align: center;
+  .about-content {
+    flex-direction: column;
+  }
+  .row{
+  flex-direction: column;
+  text-align: center;
   }
 
   .col-2,
