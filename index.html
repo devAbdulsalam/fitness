@@ -77,25 +77,23 @@
 			<div id="about" class="about">
 				<h2 class="head title">About Us</h2>
 				<div class="about-content">
-					<div>
+					<div class="desc">
 						<h4>Fitness and fun Lorem, ipsum dolor. Lorem, ipsum dolor</h4>
 						<p>
 							Begin with achivers mentality, amet consectetur adipisicing elit.
 							Quos, asperiores. Ex temporibus magni quod eos mollitia cumque
 							obcaecati. Modi animi exercitationem minus.
-							<br>
-							<br>
-								Dress for success nsecteasperiores. Ex temporibus magni quod eos
-								mollitia cumque obcaecati. Modi animi exercitationem corrupti
-								minus.
-							</p>
-						</div>
+							<br />
+							Dress for success nsecteasperiores. Ex temporibus magni quod eos
+							mollitia cumque obcaecati. Modi animi exercitationem corrupti
+							minus.
+						</p>
 					</div>
 					<div class="about-img">
 						<img src="store image/images/ready1.jpg" />
 					</div>
 					<div class="about-img">
-						<img src="store image/images/ready1.jpg" />
+						<img src="store image/images/ready2.jpg" />
 					</div>
 				</div>
 			</div>
@@ -415,6 +413,8 @@
 					</div>
 				</div>
 			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 			<div class="swiper-pagination"></div>
 		</section>
 
@@ -570,12 +570,14 @@
 		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 		<script>
 			var swiper = new Swiper(".mySwiper", {
+				speed: 400,
 				pagination: {
 					el: ".swiper-pagination",
-					clickable: true,
-					renderBullet: function (index, className) {
-						return '<span class="' + className + '">' + (index + 1) + "</span>";
-					},
+					type: "fraction",
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
 				},
 			});
 		</script>
