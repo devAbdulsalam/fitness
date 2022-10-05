@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  outline: 1px red solid;
 }
 
 body {
@@ -479,6 +478,8 @@ section {
 @media screen and (max-width: 600px) {
   .navbar {
       padding: 10px;
+      width: 100vw;
+      border: 1px green solid;
   }
   .about-content {
     flex-direction: column;
