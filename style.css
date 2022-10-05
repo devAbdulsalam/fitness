@@ -174,7 +174,8 @@ section{
 }
 .col-4 {
   flex-basis: 24%;
-  border: 1px red solid;
+  border: 1px solid #cececd;
+  border-radius: 3px;
   padding: 10px;
   margin: 10px;
   min-width: 200px;
@@ -213,7 +214,7 @@ h4 {
   font-size: normal;
 }
 
-col-4 p {
+.col-4 p {
   font-size: 14px;
 }
 
@@ -235,7 +236,7 @@ col-4 p {
   );
   margin-top: 80px;
   max-height: 70vh;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .offer .title {
   color: white ;
@@ -244,8 +245,15 @@ col-4 p {
   justify-content: center;
   align-items: center;
 }
+.offer .col-2{
+padding: 10px 80px;
+}
+.offer h1{
+margin: 10px 0;
+}
 .col-2 .offer-img {
-  padding: 30px;
+  flex-basis: 40%;
+  /* padding: 30px; */
   max-height: 400px;
 }
 
@@ -255,16 +263,9 @@ small {
 }
 
 /*------- Testimonials -------*/
-.row{
+.testimonial .row{
   display: flex;
-  /* border: 1px red solid; */
   gap: 20px;
-}
-.testimonial{
-  border: 1px red solid;
-}
-.testimonial .small-container{
-  border: 1px green solid;
 }
 .testimonial .col-3 {
   flex-basis: 32%;
@@ -307,7 +308,6 @@ small {
 .brands {
   margin: 30px auto 50px;
 }
-
 .col-5 {
   width: 160px;
 }
@@ -400,7 +400,9 @@ footer li{
 .app-logo img {
   width: 140px;
 }
-
+.hideonDestop{
+  display: none;
+}
 .footer hr {
   border: none;
   background: #b5b5b5;
@@ -454,11 +456,14 @@ footer li{
   }
 /* sections */
 section {
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
 /* About content */
 .about-content {
   width: 95%;
+}
+.newBrand {
+  grid-template-columns: 1fr 1fr;
 }
 }
 
@@ -478,4 +483,43 @@ section {
   .col-4 {
     flex-basis: 100%;
   }
+    /* newBrand */
+     .newBrand {
+       grid-template-columns: 1fr ;
+     }
+    /* offer */
+    .offer{
+      margin-top: 40px;
+      max-height: 100%;
+    }
+      .offer .col-2 {
+        padding: 10px;
+      }
+      .offer .row {
+        flex-direction: column;
+      }
+    /* .brands */
+     .brands {
+       margin: 30px auto 30px;
+     }
+    .brands .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* footer */
+        .footer {
+          padding: 30px 0 20px;
+        }
+    .mobileFooter{
+      display: flex;
+      justify-content: center;
+    }
+        .hideonDestop {
+          display: block;
+        }
+    .footerLinks{
+      display: none;
+    }
 }
