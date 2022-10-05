@@ -103,6 +103,7 @@ section{
   width: 75%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 25px;
   gap: 20px;
   justify-content: center;
@@ -252,6 +253,12 @@ small {
   display: flex;
   /* border: 1px red solid; */
   gap: 20px;
+}
+.testimonial{
+  border: 1px red solid;
+}
+.testimonial .small-container{
+  border: 1px green solid;
 }
 .testimonial .col-3 {
   flex-basis: 32%;
@@ -409,7 +416,7 @@ footer li{
 @media screen and (max-width: 800px) {
   nav ul {
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 0;
     background: #333;
     width: 100%;
@@ -439,6 +446,14 @@ footer li{
   .col h1{
     font-size: 35px;
   }
+/* sections */
+section {
+  padding: 20px 20px;
+}
+/* About content */
+.about-content {
+  width: 95%;
+}
 }
 
 /*----media query for less than 600 screen size-----*/
