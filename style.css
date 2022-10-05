@@ -58,6 +58,25 @@ p {
 section{
   padding: 40px 40px 10px;
 }
+.title {
+  text-align: center;
+  margin: 0 auto 50px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .hero {
   width: 90%;
   margin: 60px auto 10px;
@@ -176,46 +195,31 @@ section{
   flex-basis: 24%;
   border: 1px solid #cececd;
   border-radius: 3px;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   min-width: 200px;
   margin-bottom: 50px;
+  background-color: rgb(245, 240, 240);
   box-shadow: #555 1px;
-  transition: transform 0.6s;
+  transition: transform 0.5s;
 }
 .col-4 img {
-  max-width: 250px;
+  max-width: 290px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
-.title {
-  text-align: center;
-  margin: 0 auto 50px;
-  position: relative;
-  line-height: 60px;
-  color: #555;
-}
-
-.title::after {
-  content: "";
-  background: #ff523b;
-  width: 80px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 h4 {
   color: #555;
   font-size: normal;
 }
-
+.price{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
 .col-4 p {
-  font-size: 14px;
+  font-size: 20px;
+  color: #ff523b;
 }
 
 .rating .fa {
@@ -223,7 +227,7 @@ h4 {
 }
 
 .col-4:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px) !important;
 }
 
 /*-----Offers----*/
@@ -458,6 +462,7 @@ footer li{
 section {
   padding: 20px 0px;
 }
+
 /* About content */
 .about-content {
   width: 95%;
